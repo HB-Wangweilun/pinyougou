@@ -1,0 +1,18 @@
+.content{
+    width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'iconfont';  /* Project id 3629221 */
+    src: url('//at.alicdn.com/t/c/font_3629221_3wrb3vp445j.woff2?t=1662308966093') format('woff2'),
+         url('//at.alicdn.com/t/c/font_3629221_3wrb3vp445j.woff?t=1662308966093') format('woff'),
+         url('//at.alicdn.com/t/c/font_3629221_3wrb3vp445j.ttf?t=1662308966093') format('truetype');
+  }
+
+
+li:hover{
+    color: red;
+} 

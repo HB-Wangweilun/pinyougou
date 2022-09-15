@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    		<!-- 禁止页面缩放 -->
+            
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/Index.css">
+    <link rel="stylesheet" href="./fa/css/all.min.css">
+    <link rel="stylesheet" href="./font_3629221_fd2gbfd3mpi/iconfont.css">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+ </head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="content header_content">
+                <div class="left">
+                    <p>
+                        <a href="#">品优购欢迎您！ 请登录</a>
+                        <a class="registered">免费注册</a>
+                    </p>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li class="li_left">
+                            <a href="#">我的订单</a>
+                        </li>
+                        <li>
+                            <a href="#">我的品优购
+                                <i class="iconfont icon-xiajiantou"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">品优购会员</a>
+                        </li>
+                        <li>
+                            <a href="#">企业采购</a>
+                        </li>
+                        <li>
+                            <a href="#">关注品优购
+                                <i class="iconfont icon-xiajiantou"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">客户服务
+                                <i class="iconfont icon-xiajiantou"></i>
+                            </a>
+                        </li>
+                        <li class="li_right">
+                            <a href="#">网站导航
+                                <i class="iconfont icon-xiajiantou"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="logo-search content">
+            <div class="logo">
+                <img src="./img/logo.png">
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="text" class="search_text" placeholder="语言开发">
+                    <input type="submit" value="搜索" class="search_submit">
+                </form>
+                <p>
+                    <span class="span_one">优惠购首发</span>
+                    <span>亿元优惠</span>
+                    <span>9.9元团购</span>
+                    <span>美满99减30</span>
+                    <span>办公用品</span>
+                    <span>电脑</span>
+                    <span>通信</span>
+                </p>
+            </div>
+            <div class="shoppingCart">
+                <button class="btn_shopping">
+                    <div class="shoppingCart_logo"></div>
+                    <a href="#" class="myShopping">我的购物车</a>
+                    <i class="iconfont icon-jiantou"></i>
+                </button>
+            </div>
+        </div>
+        <div class="type_title content">
+            <span class="type_title_span">全部商品分类</span>
+            <ul>
+                <li>
+                    <a href="#">服装城</a>
+                </li>
+                <li>
+                    <a href="#">美妆馆</a>
+                </li>
+                <li>
+                    <a href="#">传智超市</a>
+                </li>
+                <li>
+                    <a href="#">全球购</a>
+                </li>
+                <li class="fonttwo">
+                    <a href="#">闪购</a>
+                </li>
+                <li class="fonttwo">
+                    <a href="#">团购</a>
+                </li>
+                <li class="fonttwo">
+                    <a href="#">拍卖</a>
+                </li>
+                <li class="fonttwo">
+                    <a href="#">有趣</a>
+                </li>
+            </ul>
+        </div>
+        <div class="type_liebiao">
+            <div class="liebiao_nei content">
+                <div class="liebiao_left_content">
+                <ul>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        家用电器
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        手机、数码、通信
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        电脑、办公
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        家居、家具、家装、厨具
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        男装、女装、童装、内衣
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        个户化妆、清洁用品、宠物
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        鞋靴、箱包、珠宝、奢侈品
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        运动户外、钟表
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        汽车、汽车用品
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        母婴、玩具乐器
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        食品、酒类、生鲜、特产
+                        <i id="icon-jiantou" class="iconfont icon-jiantou"></i>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        医药保健
+                        <a><i id="icon-jiantou" class="iconfont icon-jiantou"></i></a>
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        图书、音像、电子书
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        彩票、旅行、充值、票务
+                    </li>
+                    <li>&nbsp;&nbsp;&nbsp;
+                        理财、众筹、白条、保险
+                    </li>
+                </ul>
+            </div>
+                <img src="./img/大牌pk.png" class="dapai">
+                <div class="right_content">
+                    <p class="title">
+                        <a class="kuaibao">品优购快报</a>
+                        <span class="span_gengduo">更多<i class="iconfont icon-jiantou"></i></span>
+                    </p>
+                    <ul class="ul_kuaibao">
+                        <li>
+                            <span class="b_tehuigonggao">[特惠]</span>备战开学季 全民半价购数码</li>
+                        <li>
+                            <span class="b_tehuigonggao">[公告]</span>品优稳占家电网购六成份额</li>
+                        <li>
+                            <span class="b_tehuigonggao">[特惠]</span>百元中秋全品类礼券限量领</li>
+                        <li>
+                            <span class="b_tehuigonggao">[公告]</span>上品优生鲜 享阳澄湖大闸蟹</li>
+                        <li>
+                            <span class="b_tehuigonggao">[特惠]</span>每日享折扣品优品质券</li>
+                    </ul>
+                    <ul class="ul_hd">
+                        <li class="li_lr rl huafei">
+                            <dl>
+                                <dt></dt>
+                                <dd>话费</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr rl jipiao">
+                            <dl>
+                                <dt></dt>
+                                <dd>机票</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr rl dianyingpiao">
+                            <dl>
+                                <dt></dt>
+                                <dd>电影票</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr rl rr game">
+                            <dl>
+                                <dt></dt>
+                                <dd>游戏</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr rl caipiao">
+                            <dl>
+                                <dt></dt>
+                                <dd>彩票</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr rl jiayouka">
+                            <dl>
+                                <dt></dt>
+                                <dd>加油卡</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr rl jiudian"> 
+                            <dl>
+                                <dt></dt>
+                                <dd>酒店</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr rl rr huochepiao"> 
+                            <dl>
+                                <dt></dt>
+                                <dd>火车票</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr zhongcou">
+                            <dl>
+                                <dt></dt>
+                                <dd>众筹</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr licai">
+                            <dl>
+                                <dt></dt>
+                                <dd>理财</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr lipinka">
+                            <dl>
+                                <dt></dt>
+                                <dd>礼品卡</dd>
+                            </dl>
+                        </li>
+                        <li class="li_lr rr baitiao"> 
+                            <dl>
+                                <dt></dt>
+                                <dd>白条</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <img src="./img/男装秋潮新势力.png" class="img_nanzhuangqiuchao">
+                </div>
+            </div>
+        </div>
+        <div class="tuijian_content content">
+            <div class="day_tuijian">
+                <img src="./img/clock.png" class="shizhong"><br>
+                <a class=a_daytuijian>今日推荐</a>
+                
+            </div>
+            <div class="day_tuijian_list">
+                <ul class="ul_daytuijian">
+                    <li class="right_xian">
+                        <img src="./img/皮鞋.png" alt="">
+                        <dl>
+                            <dt class="tuijian_title">优质好货</dt>
+                            <dd><span class="youhui">满300减100</span></dd>
+                            <dd class="desc">满500减200</dd>
+                        </dl>
+                    </li>
+                    <li class="right_xian">
+                        <img src="./img/垃圾袋.png" alt="">
+                        <dl>
+                            <dt class="tuijian_title">品牌尾货</dt>
+                            <dd><span class="youhui green">满300减100</span></dd>
+                            <dd class="desc">团购低至9.9</dd>
+                            <dd><span class="btn_gou green">团购</span></dd>
+                        </dl>
+                    </li>
+                    <li class="right_xian">
+                        <img src="./img/衬衫.png" alt="">
+                        <dl>
+                            <dt class="tuijian_title">时尚穿搭</dt>
+                            <dd><span class="youhui red" style="width:70px ;">低至3.6折</span></dd>
+                            <dd class="desc">暑期出游季</dd>
+                            <dd><span class="btn_gou red">闪购</span></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <img src="./img/手表.png" alt="">
+                        <dl>
+                            <dt class="tuijian_title">0点上新</dt>
+                            <dd><span class="youhui" style="width:65px;">全场包邮</span></dd>
+                            <dd class="desc">低至一折</dd>
+                            <dd><span class="btn_gou blue">闪购</span></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="live content">
+            <p>
+                <a class="live_a">猜你喜欢</a>
+                <span class="huan_icon"></span>
+                <span class="change">换一批</span>
+            </p>
+        </div>
+        <div class="live_content content">
+            <ul>
+                <li class="danjianbao">
+                    <img src="./img/单肩包.png" alt="">
+                    <dl>
+                        <dd>阳光美包新款单肩包女<br>包时尚子母包四件套女</dd>
+                        <dt>¥116.00</dt>
+                    </dl>
+                </li>
+                <li class="chaoguo">
+                    <img src="./img/爱仕达炒锅.png" alt="">
+                    <dl>
+                        <dd>爱仕达 30CM炒锅不粘<br>锅NWG8330E电磁炉炒</dd>
+                        <dt>¥99.00</dt>
+                    </dl>
+                </li>
+                <li class="jielangbo">
+                    <img src="./img/捷朗波.png" alt="">
+                    <dl>
+                        <dd>捷波朗<br>（jabra）BOOSI劲步</dd>
+                        <dt>¥245.00</dt>
+                    </dl>
+                </li>
+                <li class="oupu">
+                    <img src="./img/欧普面板灯.png" alt="">
+                    <dl>
+                        <dd>欧普<br>JYLZ08面板灯平板灯铝</dd>
+                        <dt>¥238.00</dt>
+                    </dl>
+                </li>
+                <li class="sanxing">
+                    <img src="./img/三星G5500.png" alt="">
+                    <dl>
+                        <dd>三星<br>（G5500）移动联</dd>
+                        <dt>¥649.00</dt>
+                    </dl>
+                </li>
+                <li class="jinghualu">
+                    <img src="./img/韩国所望精华露.png" alt="">
+                    <dl>
+                        <dd>韩国所望<br>紧致湿润精华露400ml</dd>
+                        <dt>¥649.00</dt>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="czbk content">
+            <div class="czbk_top">
+                <p>
+                    <a>传智播客 有趣区</a>
+                </p>
+            </div>
+            <div class="czbk_content">
+                <div class="shuji">
+                    <a>传智播客好书榜</a><br>
+                    <span>畅销推荐低至一折</span>
+                    <img src="./img/shuji.png" alt="">
+                </div>
+                <div class="gooddx">
+                    <div class="title">
+                        <h5>好东西</h5>
+                    </div>
+                    <div class="content_one">
+                        <dl>
+                            <dt>达人推荐</dt>
+                            <dd class="ddone">雷神金属机械键盘</dd>
+                            <dd class="ddtwo">与你相见恨晚</dd>
+                        </dl>
+                        <img src="./img/czbj_jp.png" alt="">
+                    </div>
+                    <div class="content_two">
+                        <dl>
+                            <dt>发现好物</dt>
+                            <dd class="ddone">不小心霸气外露</dd>
+                            <dd class="ddtwo">等你来</dd>
+                        </dl>
+                        <img src="./img/czbk_yf.png" alt="">
+                    </div>
+                </div>
+                <div class="pinpaijie">
+                    <div class="title">
+                        <h5>品牌街</h5>
+                    </div>
+                    <div class="content_one">
+                        <dl>
+                            <dt>苏泊尔</dt>
+                            <dd class="ddone">返场大秀场</dd>
+                            <dd class="ddtwo">爆品直降100元</dd>
+                        </dl>
+                        <img src="./img/czbk_dfb.png" alt="">
+                    </div>
+                    <div class="content_two">
+                        <div class="footer_one">
+                            <dl>
+                                <dt>国际大牌</dt>
+                                <dd class="ddone">adidas</dd>
+                                <dd class="ddtwo">部分3免1</dd>
+                            </dl>
+                            <img src="./img/czbk_xz.png" alt="">
+                        </div>
+                        <div class="footer_two">
+                            <dl>
+                                <dt>本周特卖</dt>
+                                <dd class="ddone">大牌折扣</dd>
+                                <dd class="ddtwo">每周上新</dd>
+                            </dl>
+                            <img src="./img/czbk_tm.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <img class="pplogo" src="./img/czbk_pplogo.png" alt="">
+            </div>
+        </div>
+        <div class="household_content content">
+            <div class="household_content_title">
+                <p>
+                    <a class="title_a">家用电器</a>
+                    <ul class="title_ul">
+                        <li>
+                            <a>热门</a>
+                        </li>
+                        <li>
+                            <a>大家电</a>
+                        </li>
+                        <li>
+                            <a>生活电器</a>
+                        </li>
+                        <li>
+                            <a>厨房电器</a>
+                        </li>
+                        <li>
+                            <a>个护健康</a>
+                        </li>
+                        <li>
+                            <a>应季电器</a>
+                        </li>
+                        <li>
+                            <a>空气/净水</a>
+                        </li>
+                        <li>
+                            <a>新奇特</a>
+                        </li>
+                        <li>
+                            <a>高端电器</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="household_content_content">
+                <div class="sxds">
+                    <ul class="ul_left">
+                        <li>
+                            <a>节能补贴</a>
+                        </li>
+                        <li>
+                            <a>空气净化器</a>
+                        </li>
+                        <li>
+                            <a>滚筒洗衣机</a>
+                        </li>
+                    </ul>
+                    <ul class="ul_right">
+                        <li>
+                            <a>4K电视</a>
+                        </li>
+                        <li>
+                            <a>IH电饭煲</a>
+                        </li>
+                        <li>
+                            <a>电热水器</a>
+                        </li>
+                    </ul>
+                    <p class="p_desc">
+                        <a>三星曲面电视</a><br>
+                        <span>抽奖送豪礼</span>
+                    </p>
+                    <img src="./img/jydq_sxds.png" alt="">
+                </div>
+                <div class="ssh">
+                    <p>
+                        <a>烧水壶智能光控泡茶壶茶具套装</a>
+                        <span>满299.00减40.00</span>
+                    </p>
+                    <img src="./img/jydq_dsh.png" alt="">
+                </div>
+                <div class="mj">
+                    <div class="mj_top">
+                        <p>
+                            <a>没满200减20元</a><br>
+                            <span>烘培节1元抢购</span>
+                        </p>
+                        <img src="./img/jydq_wbl.png" alt="">
+                    </div>
+                    <div class="mj_bottom">
+                        <p>
+                            <a>没满200减20元</a><br>
+                            <span>烘培节1元抢购</span>
+                        </p>
+                        <img src="./img/jydq_lstv.png" alt="">
+                    </div>
+                </div>
+                <div class="cd">
+                    <p>
+                        <a>8.20彩电宅购节</a><br>
+                        <span>65寸4K智能电视3799</span>
+                    </p>
+                    <img src="./img/jydq_cd.png" alt="">
+                </div>
+                <div class="xs">
+                    <div class="xs_top">
+                        <p>
+                            <a>消暑神器全场领券</a><br>
+                            <span>1元赢空调</span>
+                        </p>
+                        <img src="./img/jydq_kt.png" alt="">
+                    </div>
+                    <div class="xs_bottom">
+                        <p>
+                            <a>没满200减20元</a><br>
+                            <span>烘培节1元抢购</span>
+                            <img src="./img/jydq_dfs.png" alt="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="household_logo">
+                <img src="./img/jydq_logo.png" alt="">
+            </div>
+        </div>
+
+
+
+
+
+        <div class="phone_content content">
+            <div class="phone_content_title">
+                <p>
+                    <a class="title_a">手机通讯</a>
+                    <ul class="title_ul">
+                        <li>
+                            <a>热门</a>
+                        </li>
+                        <li>
+                            <a>品质优选</a>
+                        </li>
+                        <li>
+                            <a>新机尝鲜</a>
+                        </li>
+                        <li>
+                            <a>高性价比</a>
+                        </li>
+                        <li>
+                            <a>口碑推荐</a>
+                        </li>
+                        <li>
+                            <a>合约机</a>
+                        </li>
+                        <li>
+                            <a>手机卡</a>
+                        </li>
+                        <li>
+                            <a>店铺精选</a>
+                        </li>
+                        <li>
+                            <a>手机配件</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="phone_content_content">
+                <div class="sxds">
+                    <ul class="ul_left">
+                        <li>
+                            <a>手机通讯</a>
+                        </li>
+                        <li>
+                            <a>双卡双待</a>
+                        </li>
+                        <li>
+                            <a>金属机身</a>
+                        </li>
+                    </ul>
+                    <ul class="ul_right">
+                        <li>
+                            <a>依旧换新</a>
+                        </li>
+                        <li>
+                            <a>自营配件</a>
+                        </li>
+                        <li>
+                            <a>高清屏</a>
+                        </li>
+                    </ul>
+                    <p class="p_desc">
+                        <a>中兴A1 低至499元</a><br>
+                        <span>国民指纹，超6万好评</span>
+                    </p>
+                    <img src="./img/sjtx_zxsj.png" alt="">
+                </div>
+                <div class="ssh">
+                    <p>
+                        <a>360 N4S限量版</a><br>
+                        <span>1199元抢购</span>
+                    </p>
+                    <img src="./img/sjtx_360.png" alt="">
+                </div>
+                <div class="mj">
+                    <div class="mj_top">
+                        <p>
+                            <a>Moto X极</a><br>
+                            <span>低至¥2999</span>
+                        </p>
+                        <img src="./img/sjtx_moto.png" alt="">
+                    </div>
+                    <div class="mj_bottom">
+                        <p>
+                            <a>乐max2 限量秒杀</a><br>
+                            <span>每日1899秒</span>
+                        </p>
+                        <img src="./img/sjtx_lemax.png" alt="">
+                    </div>
+                </div>
+                <div class="cd">
+                    <p>
+                        <a>G9青春版玫瑰金首发</a><br>
+                        <span>赢0元试用</span>
+                    </p>
+                    <img src="./img/sjtx_hwg9.png" alt="">
+                </div>
+                <div class="xs">
+                    <div class="xs_top">
+                        <p>
+                            <a>荣耀V8 2K屏</a><br>
+                            <span>¥2799元</span>
+                        </p>
+                        <img src="./img/sjtx_ryv8.png" alt="">
+                    </div>
+                    <div class="xs_bottom">
+                        <p>
+                            <a>vivo x7星空灰</a><br>
+                            <span>1元赢新机</span>
+                            <img src="./img/sjtx_vivox7.png" alt="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="phone_logo">
+                <img src="./img/sjtx_logo.png" alt="">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="computer_content content">
+            <div class="computer_content_title">
+                <p>
+                    <a class="title_a">电脑办公</a>
+                    <ul class="title_ul">
+                        <li>
+                            <a>热门</a>
+                        </li>
+                        <li>
+                            <a>电脑/平板</a>
+                        </li>
+                        <li>
+                            <a>潮流影音</a>
+                        </li>
+                        <li>
+                            <a>智能/外设</a>
+                        </li>
+                        <li>
+                            <a>DIY硬件</a>
+                        </li>
+                        <li>
+                            <a>DIY硬件</a>
+                        </li>
+                        <li>
+                            <a>办公/网络</a>
+                        </li>
+                        <li>
+                            <a>文具电教</a>
+                        </li>
+                        <li>
+                            <a>精选配件</a>
+                        </li>
+                    </ul>
+                </p>
+            </div>
+            <div class="computer_content_content">
+                <div class="sxds">
+                    <ul class="ul_left">
+                        <li>
+                            <a>SSD硬盘</a>
+                        </li>
+                        <li>
+                            <a>机械键盘</a>
+                        </li>
+                        <li>
+                            <a>组装电脑</a>
+                        </li>
+                    </ul>
+                    <ul class="ul_right">
+                        <li>
+                            <a>显示器</a>
+                        </li>
+                        <li>
+                            <a>台式机</a>
+                        </li>
+                        <li>
+                            <a>配件专区</a>
+                        </li>
+                    </ul>
+                    <p class="p_desc">
+                        <a>电脑特惠直降3000</a><br>
+                        <span>游戏本6期免息</span>
+                    </p>
+                    <img src="./img/dnbg_wxr.png" alt="">
+                </div>
+                <div class="ssh">
+                    <p>
+                        <a>大牌相机低价抢</a><br>
+                        <span>运动相机低至¥299</span>
+                    </p>
+                    <img src="./img/dnbg_ydxj.png" alt="">
+                </div>
+                <div class="mj">
+                    <div class="mj_top">
+                        <p>
+                            <a>平板新世界</a><br>
+                            <span>开启2IN1时代</span>
+                        </p>
+                        <img src="./img/dnbg_pbdn.png" alt="">
+                    </div>
+                    <div class="mj_bottom">
+                        <p>
+                            <a>低价来袭</a><br>
+                            <span>机械键盘低至99元</span>
+                        </p>
+                        <img src="./img/dnbg_jxjp.png" alt="">
+                    </div>
+                </div>
+                <div class="cd">
+                    <p>
+                        <a>全场6期分期免息</a><br>
+                        <span>我和DIY有个约会</span>
+                    </p>
+                    <img src="./img/dnbg_div.png" alt="">
+                </div>
+                <div class="xs">
+                    <div class="xs_top">
+                        <p>
+                            <a>消暑神器全场领券</a><br>
+                            <span>1元赢空调</span>
+                        </p>
+                        <img src="./img/jydq_kt.png" alt="">
+                    </div>
+                    <div class="xs_bottom">
+                        <p>
+                            <a>潮流手配 尖叫来袭</a><br>
+                            <span>满99元减30元</span>
+                            <img src="./img/dnbg_sb.png" alt="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="computer_logo">
+                <img src="./img/dnbg_logo.png" alt="">
+            </div>
+        </div>
+        <div class="rob content">
+            <div class="rob_title">
+                <p>
+                    <a>热门疯抢</a>
+                </p>
+            </div>
+            <div class="rob_content">
+                <img src="./img/fengqiang.png" alt="">
+                <a class="a_moeny one">¥79.00</a>
+                <a class="a_moeny two">¥139.00</a>
+                <a class="a_moeny three">¥29.00</a>
+                <a class="a_moeny four">¥129.00</a>
+                <a class="a_moeny five">¥128.00</a>
+                <a class="a_moeny six">¥129.00</a>
+                <a class="a_moeny seven">¥129.00</a>
+            </div>
+        </div>
+        <div class="footer"> 
+            <div class="footer_content content">
+                <div class="headers">
+                 <ul>
+                    <li>
+                        <div class="footer_logo1 fuwu"></div>
+                        <dl>
+                            <dt>正品保障</dt>
+                            <dd>正品保障，提供发票</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <div class="footer_logo2 fuwu"></div>
+                        <dl>
+                            <dt>极速物流</dt>
+                            <dd>急速物流，急速送达</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <div class="footer_logo3 fuwu"></div>
+                        <dl>
+                            <dt>无忧售后</dt>
+                            <dd>7天无理由退换货</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <div class="footer_logo4 fuwu"></div>
+                        <dl>
+                            <dt>特色服务</dt>
+                            <dd>私人订制家电套餐</dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <div class="footer_logo5 fuwu"></div>
+                        <dl>
+                            <dt>帮助中心</dt>
+                            <dd>您的购物指南</dd></dd>
+                        </dl>
+                    </li>
+                 </ul>
+                </div>
+                <div class="items">
+                    <ul>
+                        <section>购物指南</section>
+                        <li>购物流程</li>
+                        <li>会员介绍</li>
+                        <li>生活旅行/团购</li>
+                        <li>常见问题</li>
+                        <li>大家电</li>
+                        <li>联系客服</li>
+                    </ul>
+                    <ul>
+                        <section>配送方式</section>
+                        <li>上门自提</li>
+                        <li>211限时达</li>
+                        <li>配送服务查询</li>
+                        <li>配送费收取标准</li>
+                        <li>海外配送</li>
+                    </ul>
+                    <ul>
+                        <section>支付方式</section>
+                        <li>货到付款</li>
+                        <li>在线支付</li>
+                        <li>分期付款</li>
+                        <li>邮局汇款</li>
+                        <li>公司转账</li>
+                    </ul>
+                    <ul>
+                        <section>售后服务</section>
+                        <li>售后政策</li>
+                        <li>价格保护</li>
+                        <li>退款说明</li>
+                        <li>返修/退换货</li>
+                        <li>取消订单</li>
+                    </ul>
+                    <ul>
+                        <section>特色服务</section>
+                        <li>夺宝岛</li>
+                        <li>DIY装机</li>
+                        <li>延保服务</li>
+                        <li>品优购E卡</li>
+                        <li>品优购通信</li>
+                    </ul>
+                    <ul>
+                        <section>帮助中心</section>
+                        <img src="./img/footererweima.png" alt=""><br>
+                        <a class="erweima_a">品优购客户端</a>
+                    </ul>
+                </div>
+                <div class="footers">
+                    <div class="footers_content">
+                        <ul>
+                            <li>关于我们</li>
+                            <li>联系我们</li>
+                            <li>联系客服</li>
+                            <li>商家入驻</li>
+                            <li>营销中心</li>
+                            <li>手机品优购</li>
+                            <li>友情链接</li>
+                            <li>销售联盟</li>
+                            <li>品优购社区</li>
+                            <li>品优购公益</li>
+                            <li>English Site</li>
+                            <li>Contact U</li>
+                        </ul>
+                    </div>
+                    <p class="p_footer_arddes">地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn<br>京ICP备08001421号京公网安备110108007702</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
